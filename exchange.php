@@ -20,7 +20,7 @@ function getNominalPayment($summa, $nominalArray, &$result)
     if (!($summa >= $nominal))
         $nominal = array_pop($nominalArray);
 
-    if ( $summa % $nominal ) {
+    if ($summa % $nominal) {
         list($total, $rest) = explode('.', $summa / $nominal);
     } else {
         $total = $summa / $nominal;
