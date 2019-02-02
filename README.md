@@ -5,6 +5,6 @@ Installation
 ------------
 
 ```bash
-$ git clone https://github.com/DimaKrit/Swivl-Symfony3-API.git
+$ git clone git@github.com:DimaKrit/CLI-bank.git
 
 ```
